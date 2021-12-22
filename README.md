@@ -16,6 +16,21 @@ vi index.html
 vim index.html
 ```
 
+## Menyimpan Kegiatan (Melakukan Save)
+```
+:w!
+```
+
+## Keluar Vi/Vim Tanpa Menyimpan Kegiatan
+```
+:q!
+```
+
+## Keluar Vi/Vim Dengan Menyimpan Kegiatan
+```
+:wq!
+```
+
 ## Memindahkan Kursor
 - Memindahkan Kursor ke bawah
 ```
@@ -39,15 +54,15 @@ tekan gg
 ```
 - Memindahkan Kursor ke colom paling bawah/terakhir
 ```
-tekan SHIFT + g atau tekan G (Huruf Kapital)
-```
-- Memindahkan Kursor ke baris paling kanan
-```
-tekan 0 (nol)
+tekan G (Huruf Kapital)
 ```
 - Memindahkan Kursor ke baris paling kiri
 ```
-tekan SHIFT + 4 atau tekan $ (Dollar)
+tekan 0 (nol)
+```
+- Memindahkan Kursor ke baris paling kanan
+```
+tekan $ (Dollar)
 ```
 
 ## Insert Text
@@ -65,6 +80,82 @@ tekan o
 ```
 - Insert text ke kolom sebelumnya
 ```
-tekan SHIFT + o atau tekan O (Huruf Kapital)
+tekan O (Huruf Kapital)
 ```
+
+## Delete Text
+- Delete text satu baris
+```
+tekan dd
+```
+- Delete text, satu kata ke kanan
+```
+tekan dw
+```
+- Delete text, satu kata ke kiri
+```
+tekan db
+```
+- Delete text, semua baris
+```
+tekan dG
+```
+
 ## Copy Text
+- Copy text satu baris
+```
+tekan yy
+```
+
+## Cut Text
+- Cut text satu baris
+```
+tekan dd
+```
+- Cut text, satu kata ke kanan
+```
+tekan dw
+```
+- Cut text, satu kata ke kiri
+```
+tekan db
+```
+- Cut text, semua baris
+```
+tekan dG
+```
+
+## Paste Text
+- Paste text kebawah kolom
+```
+tekan p
+```
+- Paste text keatas kolom
+```
+tekan P (Huruf Kapital)
+```
+
+## Find Text
+```
+tekan /
+```
+contoh pencarian
+```
+tekan /html
+```
+setelah itu tekan n (kecil) untuk mencari kalimat atau text ke bawah.
+lalu tekan N (besar) untuk mencari kalimat atau text ke atas.
+
+# Catatan
+
+### Set Number
+Set number digunakan untuk menampilkan angka pada setiap baris di code editor Vi dan Vim
+```
+:set number
+```
+
+### Syntax On
+Syntax on digunakan untuk menghighlight code pada Vi dan Vim.
+```
+:syntax on
+```
