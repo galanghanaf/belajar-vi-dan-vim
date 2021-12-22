@@ -143,26 +143,26 @@ contoh pencarian
 ```
 tekan /html
 ```
+setelah itu tekan n (kecil) untuk mencari kalimat atau text ke bawah.
+lalu tekan N (besar) untuk mencari kalimat atau text ke atas.
+
 ## Replace Text
-- Mengganti seluruh text
+- ### Mengganti seluruh text
 ```
 :%s/text_yang_diubah/text_baru/g
 ```
-contoh
+- contoh
 ```
 :%s/html/css/g
 ```
-- Mengganti text dengan mengecek dan bertanya text yang mau diubah
+- ### Mengganti text dengan mengecek dan bertanya text yang mau diubah
 ```
 :%s/text_yang_diubah/text_baru/gc
 ```
-contoh
+- contoh
 ```
 :%s/html/css/gc
 ```
-
-setelah itu tekan n (kecil) untuk mencari kalimat atau text ke bawah.
-lalu tekan N (besar) untuk mencari kalimat atau text ke atas.
 
 # Catatan
 
