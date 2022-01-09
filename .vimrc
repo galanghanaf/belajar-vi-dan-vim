@@ -10,14 +10,6 @@ set modelines=0
 " Automatically wrap text that extends beyond the screen length.
 set wrap
 
-" Uncomment below to set the max textwidth. Use a value corresponding to the width of your screen.
-set formatoptions=tcqrn1
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
-set expandtab
-set noshiftround
-
 " Display 5 lines above/below the cursor when scrolling with a mouse.
 set scrolloff=5
 " Fixes common backspace problems
