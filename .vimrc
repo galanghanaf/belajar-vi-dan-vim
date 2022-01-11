@@ -25,13 +25,6 @@ set laststatus=2
 set showmode
 set showcmd
 
-" Highlight matching pairs of brackets. Use the '%' character to jump between them.
-set matchpairs+=<:>
-
-" Display different types of white spaces.
-set list
-set listchars=tab:›\ ,trail:•,extends:#,nbsp:.
-
 " Show line numbers
 set number
 
