@@ -1,5 +1,5 @@
 # Belajar Vi dan Vim
-Vi merupakan teks editor default yang ada pada sistem operasi berbasis UNIX. Sedangkan Vim merupakan teks editor tiruan Vi, namun telah ditingkatkan sehingga memiliki banyak fitur daripada Vi.
+Vi merupakan teks editor default, yang ada pada setiap sistem operasi berbasis UNIX. Sedangkan Vim merupakan teks editor tiruan Vi, namun telah ditingkatkan sehingga memiliki lebih banyak fitur daripada Vi.
 
 ## Membuat dan Masuk ke dalam File
 ```
